@@ -42,7 +42,8 @@ h3 {
       font-size: 1.5em; 
       top: 60%; 
    }
-}
 body {
-      background-size: contain; 
+      background-size: auto; 
+      background-repeat: repeat; 
    }
+}
