@@ -26,7 +26,7 @@ li a {
     text-decoration: none;
 }
 li a:hover {background-color:#696969 ;}     
-body{background-image:url(buf.png);background-repeat: no-repeat;margin: 0;padding:0;}
+body{background-image:url(Styles/buf.png);background-repeat: no-repeat;margin: 0;padding:0;}
 h1{color:black;
     text-align:center;
     font-family:georgia;
