@@ -1,206 +1,51 @@
-body {
-  background-image: url('brbg.jpg');
-  margin: 0;
-  padding: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-h2{
-  text-align: center;
-  font-size:x-large;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+h1 {
+   color:bisque;
+   text-align: center;
+   font-family: gabriola;
+   font-size: 7em; 
+   margin-top: 18%;
+   
+   
+}
+
+h2 {
+   color:moccasin;
+   text-align: center;
+   font-family: 'Monotype Corsiva'; 
+   font-size: 2em; 
+   position: absolute;
+   top: 58%; 
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
 h3 {
-  font-size: 25px;
-  font-weight: normal;
-  margin: 20px 0;
-  font-style: oblique;
+   
+   text-align: center;
+   font-family: 'Ink Free'; 
+   font-size: 2em; 
+   position: absolute;
+   top: 66%; 
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
-p{font-size: x-large;
-  font-family: oblique;
-  font-weight:unset;
-  text-align: center;
-}
-.image{display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 3px solid tan;
-  border-radius: 5px;
-  
-}
-.normal-ordered-list {
-    list-style-type: decimal;
-    padding:10px;
-    font-size:larger;
-    font-family:cursive;
-    color: navy;
-    margin-left:250px;
-}
-.normal-list {
-    list-style-type: disc;
-    padding: 10px;
-    font-size: x-large;   
-}
+a{color: aliceblue;}
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+body {
+   background-image: url('n9.png'); 
+   background-size: cover; 
 }
-
-nav ul li {
-  float: left;
+@media only screen and (max-width: 767px) {
+   h1 {font-size: 4em;}
+   h2 {
+      font-size: 1.5em; 
+      top: 35%; 
 }
-
-nav ul li a {
-  display: block;
-  color: #FFFFFF;
-  text-align: center;
-  font-family: inherit;
-  padding: 10px 55px;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  background-color: #696969;
-}
-
-.slider {
-  width: 1328px; 
-  height: 690px; 
-  background-color:bisque;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px;
-  text-align: center;
-  overflow: hidden;}
-.image-container {
-  width: 3975px; 
-  background-color: pink;
-  height: 690px; 
-  position: relative;
-  transition: left 2s;
-}
-.slide {
-  float: left;
-  margin: 0px;
-  padding: 0px;
-  position: relative;
-  width: 1328px; 
-  height: 690px; 
-}
-#slide-1:target ~ .image-container {
-  left: 0px;}
-#slide-2:target ~ .image-container {
-  left: -1328px; }
-.buttons {
-  position: absolute; 
-  bottom: -50px; 
-  left: 50%; 
-  transform: translateX(-50%); 
-}
-.buttons a {
-  display: inline-block;
-  height: 15px;
-  width: 15px;
-  border-radius: 50px;
-  background-color: lightgreen;
-}
-.logo-container {
-  position: absolute;
-  top: 150px; 
-  left: 90px; 
-  z-index: 1;  
-}
-.logo {
-  width: 110px; 
-  height: auto; 
-  display: block;
-}
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-}
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.contact,.terms{
-  flex: 1;
-  text-align: left;
-  padding: 0 20px;  
-}
-.hotel-logo {
-  flex: 1;
-  text-align: center;
-}
-.hotel-logo img {
-  max-width: 100px;
-  height: auto;
-}
-@media only screen and (max-device-width: 767px) {
-h2 {font-size: x-large;}
-h3 {font-size: 20px;}
-p {font-size: large;}
-.image {
-  width: 100%;
-  border: 3px solid tan;
-  border-radius: 5px;
-}
-.normal-ordered-list {margin-left: 0;}
-.normal-list {margin-left: 0;}
-ul {position: static;}
-li {
-  float: none; 
-  display: block; 
-}
-li a {
-  padding: 10px;
-  text-align: center;
-  font-family: inherit;
-}
-.slider {
-  width: 100%;
-  height: auto;
-}
-.image-container {
-  width: 100%;
-  height: auto;
-}
-.slide {
-  width: 100%;
-  height: auto;
-}
-#slide-1:target ~ .image-container {left: 0;}
-#slide-2:target ~ .image-container {left: 0;}
-.buttons {
-  position: static;
-  transform: none;
-  text-align: center;
-  margin-top: 10px;
-}
-.buttons a {
-  margin-right: 5px;
-}
-.img{text-align: center;}
-.logo-container {
-  position: static;
-  text-align: center;
-  margin-top: 20px;
-  margin-left: 0;
-}
-.footer-content {
-  flex-direction: column;
-  text-align: center;
-}
-.contact, .terms {
-  text-align: center;
-  padding: 0;
-}
-.hotel-logo {text-align: center;}
-.hotel-logo img {
-  max-width: 80px;
-  height: auto;
-}
+h3 {
+      font-size: 1.5em; 
+      top: 60%; 
+   }
+   body {
+      background-size: auto; 
+      background-repeat:no-repeat; 
+   }
 }
