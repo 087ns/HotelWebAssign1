@@ -1,4 +1,6 @@
-body{background-image: url(brbg.jpg);margin: 0;padding:0;}
+body{background-image: url('brbg.jpg');
+     margin: 0;
+     padding:0;}
 img {
      display: block;
      width: 100%;
