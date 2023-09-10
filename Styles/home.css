@@ -1,6 +1,8 @@
-body {background-image: url(brbg.jpg);margin: 0;padding:0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-p{text-align: center;}
+body {background-image: url(homebg.jpg);
+      margin: 0;
+      padding:0;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
 h2{
   text-align: center;
   font-size:x-large;
@@ -11,11 +13,15 @@ h3 {
   font-weight: normal;
   margin: 20px 0;
   font-style: oblique;
+  text-align: center;
 }
 p{font-size: x-large;
   font-family: oblique;
   font-weight:unset;
+  text-align: center;
 }
+.img{margin: 0 auto;
+  text-align: center;}
 .image{display: block;
   margin-left: auto;
   margin-right: auto;
